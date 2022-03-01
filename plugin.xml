@@ -45,9 +45,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <config-file target="*-Info.plist" parent="FirebaseAutomaticScreenReportingEnabled">
             <string>$AUTOMATIC_SCREEN_REPORTING_ENABLED</string>
         </config-file>
-        <config-file target="*-Info.plist" parent="NSUserTrackingUsageDescription">
-            <string>$(PRODUCT_NAME) needs your attention.</string>
-        </config-file>
 
         <header-file src="src/ios/FirebaseAnalyticsPlugin.h" />
         <source-file src="src/ios/FirebaseAnalyticsPlugin.m" />
